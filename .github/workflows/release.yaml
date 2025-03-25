@@ -35,8 +35,8 @@ jobs:
           target: ${{ matrix.platform.target }}
           args: "--locked --release"
           strip: true
-      - name: Release
-        uses: softprops/action-gh-release@v2
+      - name: Publish artifacts and release
+        uses: houseabsolute/actions-rust-release@v0
         with:
-          files: |
-            target/${{ matrix.platform.target }}/release/github-release-downloader_${{ matrix.platform.target }}
+          executable-name: github-release-downloader
+          target: ${{ matrix.platform.target }}
