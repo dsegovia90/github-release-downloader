@@ -2,8 +2,8 @@ use reqwest::header::HeaderValue;
 use std::path::Path;
 
 use crate::{
-    Args, release_inspector::InspectReleaseResponseSuccess, reqwest_builder,
-    responses::ResponseError,
+    Args, github_response_error::ResponseError, release_inspector::InspectReleaseResponseSuccess,
+    reqwest_builder,
 };
 
 pub fn download_release_assets(

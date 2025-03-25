@@ -1,4 +1,4 @@
-use crate::{Args, reqwest_builder, responses::ResponseError};
+use crate::{Args, github_response_error::ResponseError, reqwest_builder};
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize)]
