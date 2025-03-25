@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Created this tool for my personal needs, but it might be useful for others as well. I use this to download releases from my private repositories.
+Created this tool for my personal needs, but it might be useful for others as well. I use this to download releases from private repositories in production servers.
 
 ## Usage
 
